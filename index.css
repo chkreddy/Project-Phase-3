@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#4CAF50; 
+    padding: 10px;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li {
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+img.logo {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+section {
+    margin: 30px 0;
+}
+section h1 {
+    text-align: center; 
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+section ul {
+    padding: 0;
+    list-style-type: none;
+    text-align: center; 
+}
+section ul li {
+    margin: 10px 0;
+}
+section ul li::before {
+    content: "\2022"; 
+    color: #333;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+section p {
+    text-align: center; 
+    color: #666;
+    margin-bottom: 20px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img {
+    margin: 10px;
+}
+footer {
+    background-color:#4CAF50;
+    padding: 20px;
+    text-align: center;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ccc; 
+    margin: 20px 0;
+}
+footer p {
+    color:white;
+    margin: 0;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #555; 
+}
+body {
+    background-color: #fff; 
+}
+h1, h2, h3 {
+    color: #333;
+}
+a {
+    color: #333;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #555; 
+  }
+nav ul{
+  display: flex;
+  gap: 1em;
+}
+nav ul li{
+  list-style: none;
+}
+nav ul li{
+  text-decoration: none;
+  color: #ccc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:600;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.5s;
+}
+nav ul li a:hover{
+  background: linear-gradient(45deg,white,greenyellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+nav li  a:before{
+  content: '';
+  position:absolute;
+  height: 2.5px;
+  bottom: -5px;
+  width: 0;
+  border-radius: 50px;
+  background: linear-gradient(45deg,white,greenyellow);
+  transition: 0.5s;
+}
+ul  li a:hover::before{
+  width: 100%
+}  
+header,img logo{
+  position: sticky;
+  top: 0%;
+}
+marquee{
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    position: sticky;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="Website Icon" type="png"
+  href="logo 1.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect</title>
+    <link rel="stylesheet" href="/sellcrop.css">
+</head>
+<body>
+  <header>
+    <h1>Sell Crop</h1>
+    <img class="logo" src="logo 1.png" alt="AgriConnect Logo">
+  </header>
+  <div class="container">
+    <div class="form-section">
+      <h2>Enter Crop Details</h2>
+      <form>
+        <div class="form-group">
+          <label for="crop">Crop Cultivated:</label>
+          <input type="text" id="crop" name="crop" required>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Crop Quantity:</label>
+          <input type="number" id="quantity" name="quantity" required>
+        </div>
+        <div class="form-group">
+          <label for="soil">Soil Type:</label>
+          <input type="text" id="soil" name="soil" required>
+        </div>
+        <div class="form-group">
+          <label for="irrigation">Irrigation Type:</label>
+          <input type="text" id="irrigation" name="irrigation" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <textarea id="address" name="address" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="price">Selling Price (May Vary):</label>
+          <input type="number" id="price" name="price" required>
+        </div>
+        <div class="form-group">
+          <label for="Bank Account Holder Name">Bank Account Holder Name:</label>
+          <input type="text" id="Bank Account Holder Name" name="Bank Account Holder Name" required>
+        </div>
+        <div class="form-group">
+          <label for="Bank Name">Bank Name:</label>
+          <input type="text" id="Bank Name" name="Bank Name" required>
+        </div>
+        <div class="form-group">
+          <label for="Account Number">Account Number:</label>
+          <input type="number" id="Account Number" name="Account Number" required>
+        </div>
+        <div class="form-group">
+          <label for="IFSC Code">IFSC Code:</label>
+          <input type="number" id="IFSC Code" name="IFSC Code" required>
+        </div>
+        <div class="form-group">
+          <label for="Branch">Branch:</label>
+          <input type="text" id="Branch" name="Branch" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+
+    <div class="dashboard">
+      <h2>Dashboard</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>S No</th>
+            <th>Crop</th>
+            <th>Company</th>
+            <th>Quantity Needed</th>
+            <th>Buying Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Add rows dynamically using JavaScript -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <div>
+        <p>AgriConnect 2023</p>
+    </div>
+  </footer>
+</body>
+</html>

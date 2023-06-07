@@ -1,0 +1,32 @@
+.weather-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .weather-dashboard .location {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .weather-dashboard .temperature {
+    margin-bottom: 5px;
+  }
+  
+  .weather-dashboard .description {
+    margin-bottom: 5px;
+  }
+  
+  .weather-dashboard .humidity {
+    margin-bottom: 5px;
+  }
+  
+  .weather-dashboard .wind-speed {
+    margin-bottom: 5px;
+  }
+  

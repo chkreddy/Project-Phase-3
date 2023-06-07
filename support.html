@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="Website Icon" type="png"
+  href="logo 1.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriConnect</title>
+    <link rel="stylesheet" href="/support.css">
+</head>
+<body>
+  <header>
+    <h1>Support & Help</h1>
+    <img class="logo" src="logo 1.png" alt="AgriConnect Logo">
+  </header>
+  <h2>Please submit the correct details and attach the relavent data,our team will address it with in 24 hours</h2>
+  <form action="submit.php" method="POST" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required><br><br>
+    <label for="issue-type">Issue Type:</label>
+    <select id="issue-type" name="issue-type" required>
+      <option value="">-- Select Issue Type --</option>
+      <option value="Technical">Technical</option>
+      <option value="Billing">Billing</option>
+      <option value="Account">Account</option>
+      <!-- Add more options as needed -->
+    </select><br><br>
+    <label for="issue-occurred-at">Issue Occurred At:</label>
+    <input type="text" id="issue-occurred-at" name="issue-occurred-at" required><br><br>
+    <label for="description">Description of Issue:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+    <label for="image">Attach Image:</label>
+    <input type="file" id="image" name="image"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <footer>
+    <p>AgriConnect 2023</p>
+  </footer>
+</body>
+</html>
